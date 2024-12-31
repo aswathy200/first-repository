@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Blog Grid</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+
+    .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .card img {
+            border-bottom: 1px solid #ddd;
+        }
+
+        .card-body {
+            padding: 15px;
+        }
+
+        .card-meta {
+            font-size: 0.9rem;
+            color: gray;
+            margin-bottom: 10px;
+        }
+
+        .card-title {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 0.95rem;
+        }
+
+        .masonry-grid {
+            column-count: 3;
+            column-gap: 20px;
+        }
+
+        .masonry-grid-item {
+            break-inside: avoid;
+            margin-bottom: 20px;
+        }
+</style>
+<body>
+  <div class="container mt-5">
+    <div class="row">
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="man jump.jpg" class="card-img-top" alt="Trip Image">
+                <div class="card-body">
+                    <h5 class="card-title">Trip that you’ll never ever forget</h5>
+                    <p class="card-text">Quisque dictum eros nisl, a maximus massa accumsan non. Aliquam erat
+                        volutpat...</p>
+                    <small class="text-muted">by shufflehound | November 23, 2016</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="shirt and shoes.jpg" class="card-img-top" alt="Camera">
+                <div class="card-body">
+                    <h5 class="card-title">Must-have gear</h5>
+                    <p class="card-text">Ut et lacus ex. Aliquam dignissim mauris sit amet purus convallis...</p>
+                    <small class="text-muted">by shufflehound | November 23, 2016</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="youtube.avif" class="card-img-top" alt="Stormtrooper">
+                <div class="card-body">
+                    <h5 class="card-title">Movielike photo shoot – B&W</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <small class="text-muted">by shufflehound | November 23, 2016</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="com.avif" class="card-img-top" alt="Craftsmen">
+                <div class="card-body">
+                    <h5 class="card-title">Craftsmen at work</h5>
+                    <p class="card-text">Morbi eu ante mollis, elementum tortor in, hendrerit libero...</p>
+                    <small class="text-muted">by shufflehound | November 23, 2016</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
